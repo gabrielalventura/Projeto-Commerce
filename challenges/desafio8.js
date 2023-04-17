@@ -1,4 +1,3 @@
-// db.produtos.find({});
 db.produtos.deleteMany({
   curtidas: { $lt: 50 },
 });
